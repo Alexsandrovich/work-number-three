@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <div id="page-wrapper" class="page-wrapper">
     <header id="header" class="header">
         <div class="logo">
-            <img id="header-img" class="logo" src="img/logo.png" alt="original trombones logo">
+            <img id="header-img" class="header-img" src="img/logo.png" alt="original trombones logo">
         </div>
         <nav id="nav-bar" class="nav-bar">
             <ul class="links">
@@ -32,7 +37,7 @@
     </header>
     <section id="hero" class="hero">
         <h2>Handcrafted, home-made masterpieces</h2>
-        <form id="form" class="form" action="#">
+        <form id="form" class="form" action="https://www.freecodecamp.com/email-submit"">
             <input id="email" class="email" type="email" name="email" placeholder="Enter your email address" required>
             <input id="submit" class="btn" type="submit" value="Get Started">
         </form>
@@ -40,14 +45,14 @@
     <div class="container">
         <section id="features" class="features">
             <div class="grid">
-                <img class="icon" src="img/icons/icon_1.png" alt="">
+                <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
                 <div class="desc">
                     <h2 class="desc-title">Premium Materials</h2>
                     <p class="desc-text">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
                 </div>
             </div>
             <div class="grid">
-                <img class="icon" src="img/icons/icon_1.png" alt="">
+                <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
                 <div class="desc">
                     <h2 class="desc-title">Fast Shipping</h2>
                     <p class="desc-text">We make sure you recieve your trombone as soon as we have finished
@@ -55,7 +60,7 @@
                 </div>
             </div>
             <div class="grid">
-                <img class="icon" src="img/icons/icon_1.png" alt="">
+                <div class="icon"><i class="fa fa-3x fa-battery-full"></i></div>
                 <div class="desc">
                     <h2 class="desc-title">Quality Assurance</h2>
                     <p class="desc-text">For every purchase you make, we will ensure there are no damages or
@@ -103,7 +108,7 @@
             </div>
         </section>
         <footer class="footer">
-            <ul>
+            <ul class="footer-list">
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Contact</a></li>
